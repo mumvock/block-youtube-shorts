@@ -2,7 +2,7 @@
 ! Author    :   Vinycius Oliveira
 ! Version   :   1.0.0
 ! Expires   :   1 weeks
-! License   :   MIT | https://github.com/mumvock/blockyoutubeshorts/raw/main/LICENSE
+! License   :   MIT | https://github.com/mumvock/blockyoutubeshorts/raw/master/LICENSE
 ! Homepage  :   https://github.com/mumvock/blockyoutubeshorts
 ! Support   :   https://github.com/mumvock/blockyoutubeshorts/issues
 
