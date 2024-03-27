@@ -35,9 +35,9 @@ You need a ad blocker extension that supports installing custom CSS filters, I r
 2. Open **Block YouTube Shorts** styles filters installation tab by clicking in below button:
 
     
-    <a href="abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts" target="_blank">![Install directly with uBlock Origin](https://img.shields.io/badge/Install_with-Ad_Blocker-800000)</a>
-    <a href="abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts">Subscribe test</a>
-    [Subscribe test](abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts)
+    <a href="abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt" target="_blank">![Install directly with uBlock Origin](https://img.shields.io/badge/Install_with-Ad_Blocker-800000)</a>
+    <a href="abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt">Subscribe test</a>
+    [Subscribe test](abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt)
 
 3. In the newly opened tab, click in **Subscribe** button <small>(upper right corner)</small>.
 
