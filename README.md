@@ -1,4 +1,4 @@
-# Block YouTube Shorts [![Version](https://img.shields.io/github/tag/mumvock/blockyoutubeshorts.svg?label=version)](https://github.com/mumvock/blockyoutubeshorts/tags)
+# Block YouTube Shorts [![Version](https://img.shields.io/github/tag/mumvock/block-youtube-shorts.svg?label=version)](https://github.com/mumvock/block-youtube-shorts/tags)
 
 Hide all content related to YouTube Shorts on YouTube website in your web browser.
 
@@ -7,8 +7,13 @@ Hide all content related to YouTube Shorts on YouTube website in your web browse
 
 Choose which type of web browser extension you want to use to install **Block YouTube Shorts** styles:
 
-<details>
-    <summary>Via a <strong>user style manager</strong> extension <small>(this alternative doesn't involve blocking ads)</small></summary>
+- [Via **user style manager** extension](#via-user-style-manager-extension)
+- [Via **ad blocker** extension](#via-ad-blocker-extension)
+
+
+#### Via user style manager extension 
+
+<small>_* This alternative doesn't involve blocking ads_</small>
 
 User style manager is a web browser extension for changing the look and feel of web pages. 
 You need a user style manager extension that supports installing UserCSS, I recommend Stylus extension.
@@ -17,15 +22,14 @@ You need a user style manager extension that supports installing UserCSS, I reco
 
 2. Open **Block YouTube Shorts** UserCSS installation tab by clicking in below button:
 
-    [![Install directly with Stylus](https://img.shields.io/badge/Install_with-Stylus-238b8b)](https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.user.css)
+    [![Install directly with Stylus](https://img.shields.io/badge/Install_with-Stylus-238b8b)](https://github.com/mumvock/block-youtube-shorts/raw/master/block-youtube-shorts.user.css)
 
 3. In the newly opened tab, click in **Install style** button <small>(upper left corner)</small>.
 
 4. Enjoy YouTube without Shorts.
-</details>
 
-<details>
-  <summary>Via a <strong>ad blocker</strong> extension</summary>
+
+#### Via ad blocker extension
 
 Ad blocker is a web browser extension for blocking or altering online advertising.
 You need a ad blocker extension that supports installing custom CSS filters, I recommend uBlock Origin extension.
@@ -35,9 +39,7 @@ You need a ad blocker extension that supports installing custom CSS filters, I r
 2. Open **Block YouTube Shorts** styles filters installation tab by clicking in below button:
 
     
-    <a href="abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts" target="_blank">![Install directly with uBlock Origin](https://img.shields.io/badge/Install_with-Ad_Blocker-800000)</a>
-    <a href="abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts">Subscribe test</a>
-    [Subscribe test](abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts)
+    <a href="abp:subscribe?location=https://github.com/mumvock/block-youtube-shorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts" target="_blank">![Install directly with uBlock Origin](https://img.shields.io/badge/Install_with-Ad_Blocker-800000)</a>
 
 3. In the newly opened tab, click in **Subscribe** button <small>(upper right corner)</small>.
 

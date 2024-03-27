@@ -2,9 +2,9 @@
 ! Author    :   Vinycius Oliveira
 ! Version   :   1.0.0
 ! Expires   :   1 weeks
-! License   :   MIT | https://github.com/mumvock/blockyoutubeshorts/raw/master/LICENSE
-! Homepage  :   https://github.com/mumvock/blockyoutubeshorts
-! Support   :   https://github.com/mumvock/blockyoutubeshorts/issues
+! License   :   MIT | https://github.com/mumvock/block-youtube-shorts/raw/master/LICENSE
+! Homepage  :   https://github.com/mumvock/block-youtube-shorts
+! Support   :   https://github.com/mumvock/block-youtube-shorts/issues
 
 ! ====== DESKTOP ====== !
 www.youtube.com##ytd-guide-entry-renderer:has(a[title^="Shorts"])
