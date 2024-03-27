@@ -36,12 +36,18 @@ You need a ad blocker extension that supports installing custom CSS filters, I r
 
 1. If you don't already have an ad blocker extension, install **uBlock Origin** for [Google Chrome](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Opera](https://addons.opera.com/en/extensions/details/ublock/) or [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak).
 
-2. Open **Block YouTube Shorts** styles filters installation tab by clicking in below button:
+2. Open Ublock Origin by clicking on its icon.
 
-    
-    <a href="abp:subscribe?location=https://github.com/mumvock/block-youtube-shorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts" target="_blank">![Install directly with uBlock Origin](https://img.shields.io/badge/Install_with-Ad_Blocker-800000)</a>
+3. Open the Ublock dashboard by clicking in the `gears` button.
 
-3. In the newly opened tab, click in **Subscribe** button <small>(upper right corner)</small>.
+4. In the newly opened tab, go to `Filter Lists` tab.
 
-4. Enjoy YouTube without Shorts.
-</details>
+5. Scroll to the page's bottom and click in `Import` option.
+
+6. Paste the following url:
+
+    `https://github.com/mumvock/block-youtube-shorts/blob/master/block-youtube-shorts.list.txt`
+
+7. Click in `Apply changes` button at upper left corner.
+
+8. Enjoy YouTube without Shorts.
