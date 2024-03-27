@@ -25,7 +25,7 @@
         display: contents !important
     }
 }
-@-moz-document  {
+@-moz-document domain("m.youtube.com") {
     ytm-pivot-bar-item-renderer:has(.pivot-shorts),
     ytm-reel-shelf-renderer:has(a[href^="/shorts/"]),
     ytm-rich-section-renderer:has(a[href^="/shorts/"]),
