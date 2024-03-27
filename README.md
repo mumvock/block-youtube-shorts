@@ -44,7 +44,7 @@ You need a ad blocker extension that supports installing custom CSS filters, I r
 
 5. Scroll to the page's bottom and click in `Import` option.
 
-6. Paste the following url:
+6. Paste the following URL:
 
     `https://github.com/mumvock/block-youtube-shorts/blob/master/block-youtube-shorts.list.txt`
 
