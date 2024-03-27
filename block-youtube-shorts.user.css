@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           Block YouTube Shorts
+@namespace      github.com/openstyles/
+@description    Hide all content related to YouTube Shorts on YouTube website in your web browser.
+@version        1.0.0
+@author         Vinycius Oliveira
+@homepageURL    https://github.com/mumvock/blockyoutubeshorts
+@supportURL     https://github.com/mumvock/blockyoutubeshorts/issues
+@updateURL      https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.user.css
+@license        MIT | https://github.com/mumvock/blockyoutubeshorts/raw/master/LICENSE
+@preprocessor   stylus
+==/UserStyle== */
+
+@-moz-document domain("www.youtube.com") {
+    ytd-guide-entry-renderer:has(a[title^="Shorts"]),
+    ytd-mini-guide-entry-renderer:has(a[title^="Shorts"]),
+    ytd-reel-shelf-renderer:has(a[href^="/shorts/"]),
+    ytd-rich-section-renderer:has(a[href^="/shorts/"]),
+    ytd-video-renderer:has(a[href^="/shorts/"]) {
+        display: none !important;
+    }
+
+    ytd-rich-grid-row,
+    #contents.ytd-rich-grid-row {
+        display: contents !important
+    }
+}
+@-moz-document  {
+    ytm-pivot-bar-item-renderer:has(.pivot-shorts),
+    ytm-reel-shelf-renderer:has(a[href^="/shorts/"]),
+    ytm-rich-section-renderer:has(a[href^="/shorts/"]),
+    ytm-video-renderer:has(a[href^="/shorts/"]),
+    ytm-video-with-context-renderer:has(a[href^="/shorts/"]) {
+        display: none !important;
+    }
+}
+@-moz-document domain("youtube.com") {
+    yt-chip-cloud-chip-renderer:has(yt-formatted-string[title^="Shorts"]),
+    yt-tab-shape[tab-title^="Shorts"] {
+        display: none !important;
+    }
+}

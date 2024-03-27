@@ -1,0 +1,26 @@
+! Title     :   Block YouTube Shorts
+! Author    :   Vinycius Oliveira
+! Version   :   1.0.0
+! Expires   :   1 weeks
+! License   :   MIT | https://github.com/mumvock/blockyoutubeshorts/raw/master/LICENSE
+! Homepage  :   https://github.com/mumvock/blockyoutubeshorts
+! Support   :   https://github.com/mumvock/blockyoutubeshorts/issues
+
+! ====== DESKTOP ====== !
+www.youtube.com##ytd-guide-entry-renderer:has(a[title^="Shorts"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title^="Shorts"])
+www.youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
+
+! ====== MOBILE ====== !
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
+m.youtube.com##ytm-reel-shelf-renderer:has(a[href^="/shorts/"])
+m.youtube.com##ytm-rich-section-renderer:has(a[href^="/shorts/"])
+m.youtube.com##ytm-video-renderer:has(a[href^="/shorts/"])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
+
+! ====== BOTH ====== !
+youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string[title^="Shorts"])
+youtube.com##yt-tab-shape[tab-title^="Shorts"]
