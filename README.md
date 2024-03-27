@@ -17,7 +17,7 @@ You need a user style manager extension that supports installing UserCSS, I reco
 
 2. Open **Block YouTube Shorts** UserCSS installation tab by clicking in below button:
 
-    <a href="https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.user.css" target="_blank">![Install directly with Stylus](https://img.shields.io/badge/Install_with-Stylus-238b8b)</a> ![Open in new tab](https://user-images.githubusercontent.com/136959/44433186-de548e80-a56a-11e8-8947-d3331bd6d7a1.png).
+    <a href="https://github.com/mumvock/blockyoutubeshorts/raw/main/block-youtube-shorts.user.css" target="_blank">![Install directly with Stylus](https://img.shields.io/badge/Install_with-Stylus-238b8b)</a> ![Open in new tab](https://user-images.githubusercontent.com/136959/44433186-de548e80-a56a-11e8-8947-d3331bd6d7a1.png).
 
 3. In the newly opened tab, click in **Install style** button <small>(upper left corner)</small>.
 
@@ -35,7 +35,7 @@ You need a ad blocker extension that supports installing custom CSS filters, I r
 2. Open **Block YouTube Shorts** styles filters installation tab by clicking in below button:
 
     
-    <a href="abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/master/block-youtube-shorts.list.txt&title=Block YouTube Shorts" target="_blank">![Install directly with uBlock Origin](https://img.shields.io/badge/Install_with-Ad_Blocker-800000)</a> ![Open in new tab](https://user-images.githubusercontent.com/136959/44433186-de548e80-a56a-11e8-8947-d3331bd6d7a1.png).
+    <a href="abp:subscribe?location=https://github.com/mumvock/blockyoutubeshorts/raw/main/block-youtube-shorts.list.txt&title=Block YouTube Shorts" target="_blank">![Install directly with uBlock Origin](https://img.shields.io/badge/Install_with-Ad_Blocker-800000)</a> ![Open in new tab](https://user-images.githubusercontent.com/136959/44433186-de548e80-a56a-11e8-8947-d3331bd6d7a1.png).
 
 3. In the newly opened tab, click in **Subscribe** button <small>(upper right corner)</small>.
 
