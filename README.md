@@ -11,7 +11,7 @@ Choose which type of web browser extension you want to use to install **Block Yo
 - [Via **ad blocker** extension](#via-ad-blocker-extension)
 
 
-#### Via user style manager extension 
+### Via user style manager extension 
 
 <small>_* This alternative doesn't involve blocking ads_</small>
 
@@ -29,7 +29,7 @@ You need a user style manager extension that supports installing UserCSS, I reco
 4. Enjoy YouTube without Shorts.
 
 
-#### Via ad blocker extension
+### Via ad blocker extension
 
 Ad blocker is a web browser extension for blocking or altering online advertising.
 You need a ad blocker extension that supports installing custom CSS filters, I recommend uBlock Origin extension.
