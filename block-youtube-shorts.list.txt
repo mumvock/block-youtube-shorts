@@ -1,7 +1,7 @@
 ! Title     :   Block YouTube Shorts
 ! Author    :   Vinycius Oliveira
 ! Version   :   1.0.0
-! Expires   :   1 weeks
+! Expires   :   never
 ! License   :   MIT | https://github.com/mumvock/block-youtube-shorts/raw/master/LICENSE
 ! Homepage  :   https://github.com/mumvock/block-youtube-shorts
 ! Support   :   https://github.com/mumvock/block-youtube-shorts/issues
