@@ -9,9 +9,9 @@
 ! ====== DESKTOP ====== !
 www.youtube.com##ytd-guide-entry-renderer:has(a[title^="Shorts"])
 www.youtube.com##ytd-mini-guide-entry-renderer:has(a[title^="Shorts"])
-www.youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
-www.youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
-www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"]):not(:upward(ytd-browse[page-subtype="history"]))
+www.youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"]):not(:upward(ytd-browse[page-subtype="history"]))
+www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"]):not(:upward(ytd-browse[page-subtype="history"]))
 www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
 ! ====== MOBILE ====== !
@@ -22,7 +22,9 @@ m.youtube.com##ytm-video-renderer:has(a[href^="/shorts/"])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
 
 ! ====== BOTH ====== !
+youtube.com##ytd-search grid-shelf-view-model:has(a[href^="/shorts/"])
 youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string[title^="Shorts"])
+youtube.com##yt-chip-cloud-chip-renderer:has(div.ytChipShapeTextContent:has-text(/^Shorts$/))
 youtube.com##yt-tab-shape[tab-title^="Shorts"]
 
 ! ====== REDIRECTS ====== !
