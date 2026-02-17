@@ -1,7 +1,7 @@
 ! Title:     Block YouTube Shorts
-! Author:    Vinycius Oliveira
+! Author:    Mumvock
 ! Version:   1.0.0
-! Expires:   never
+! Expires:   2027
 ! License:   MIT | https://github.com/mumvock/block-youtube-shorts/raw/master/LICENSE
 ! Homepage:  https://github.com/mumvock/block-youtube-shorts
 ! Support:   https://github.com/mumvock/block-youtube-shorts/issues
@@ -24,3 +24,6 @@ m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
 ! ====== BOTH ====== !
 youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string[title^="Shorts"])
 youtube.com##yt-tab-shape[tab-title^="Shorts"]
+
+! ====== REDIRECTS ====== !
+||youtube.com/shorts/*$uritransform=/shorts\/(.*)/v\/\$1/ 
