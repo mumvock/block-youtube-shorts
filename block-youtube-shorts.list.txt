@@ -1,4 +1,4 @@
-! Title     :   Block YouTube Shorts
+! Title: Block YouTube Shorts
 ! Author    :   Vinycius Oliveira
 ! Version   :   1.0.0
 ! Expires   :   never
